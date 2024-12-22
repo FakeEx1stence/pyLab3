@@ -15,7 +15,7 @@ def DigitCount(K):
         return ("Out of range")
 
 def task1():
-    # Proc 29(28 не було)
+    # Proc 27(28 не було)
     try:
         arr = [int(input(f"({i + 1}) element :")) for i in range(5)]
         result = list(map(DigitCount, arr))
